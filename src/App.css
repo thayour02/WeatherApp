@@ -1,0 +1,76 @@
+body{
+  background-color: bisque;
+}
+
+.search-engine{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  margin-top: 30px; 
+}
+
+.search-engine input{
+ width: 70%;
+ height: 45px;
+ font-size: 20px;
+ border: 1px solid;
+ outline: none;
+ text-align: center;
+ border-radius: 8px;
+}
+.search-engine button{
+ font-size: 20px;
+ padding: 12px 15px;
+ background-color: #000;
+ color: #fff;
+ border-radius: 8px;
+ border: none;
+}
+
+.App{
+  text-align: center;
+  margin: 50px auto;
+  width: 90%;
+  max-width: 700px;
+  border-radius: 20px;
+  height: 470px;
+  padding: 20px 15px;
+  background-color: rgb(255,108,55);
+}
+.Date{
+  font-size: 18px;
+  font-weight: 500;
+  font-family: italic;
+}
+.temperature{
+  font-size: 65px;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+}
+.description{
+  font-size: 22px;
+  font-weight: bold;
+  color: #000;
+}
+.weather-info{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+  padding: 0px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.column{
+  display: flex;
+  align-items: center;
+  line-height: 1px;
+}
+.loading{
+  font-size: 40px;
+  font-weight: bold;
+
+}
